@@ -37,7 +37,6 @@ export default function Navigation({ onContactClick }: NavigationProps) {
     { label: 'Fallbeispiel', id: 'case-study' },
     { label: 'Über uns', id: 'about' },
     { label: 'Ablauf', id: 'process' },
-    { label: 'FAQ', id: 'faq' },
     { label: 'Kontakt', id: 'contact' }
   ];
 
