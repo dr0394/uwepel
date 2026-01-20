@@ -1,4 +1,4 @@
-import { Newspaper } from 'lucide-react';
+import { Newspaper, FileText, ExternalLink } from 'lucide-react';
 
 export default function Press() {
   return (
@@ -72,6 +72,123 @@ export default function Press() {
                 Unsere Kanzlei arbeitet erfolgreich mit internationalen Strafverfolgungsbehörden zusammen und verfügt über langjährige Erfahrung in grenzüberschreitenden Fällen. Diese Expertise wurde vom Handelsblatt anerkannt und gewürdigt.
               </p>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-16 max-w-6xl mx-auto">
+          <div className="text-center mb-8">
+            <div className="inline-flex items-center gap-2 bg-primary-500/10 border border-primary-500/20 rounded-full px-6 py-2 mb-4">
+              <FileText className="text-primary-500" size={20} />
+              <span className="text-primary-500 font-semibold">Fachpublikationen</span>
+            </div>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2">
+              Veröffentlichungen in Fachzeitschriften
+            </h3>
+            <p className="text-dark-200">
+              Unsere rechtswissenschaftlichen Beiträge in renommierten Fachzeitschriften
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <a
+              href="https://web.archive.org/web/20210515140943/http://kanzleipel.de/downloads/fachzeitschriften/antidiskrimierungsgesetze.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-dark-900/50 backdrop-blur border border-dark-800 rounded-xl p-6 hover:border-primary-500/50 hover:bg-dark-900/70 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-primary-500/10 rounded-lg flex items-center justify-center">
+                  <FileText className="w-5 h-5 text-primary-500" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h4 className="text-white font-semibold mb-1 group-hover:text-primary-500 transition-colors">
+                    Antidiskriminierungsgesetze
+                  </h4>
+                  <p className="text-sm text-dark-300">Fachzeitschrift</p>
+                </div>
+                <ExternalLink className="w-4 h-4 text-dark-400 group-hover:text-primary-500 transition-colors flex-shrink-0" />
+              </div>
+            </a>
+
+            <a
+              href="https://web.archive.org/web/20210515141645/http://kanzleipel.de/downloads/fachzeitschriften/haftungsschuldners.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-dark-900/50 backdrop-blur border border-dark-800 rounded-xl p-6 hover:border-primary-500/50 hover:bg-dark-900/70 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-primary-500/10 rounded-lg flex items-center justify-center">
+                  <FileText className="w-5 h-5 text-primary-500" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h4 className="text-white font-semibold mb-1 group-hover:text-primary-500 transition-colors">
+                    Haftungsschuldners
+                  </h4>
+                  <p className="text-sm text-dark-300">Fachzeitschrift</p>
+                </div>
+                <ExternalLink className="w-4 h-4 text-dark-400 group-hover:text-primary-500 transition-colors flex-shrink-0" />
+              </div>
+            </a>
+
+            <a
+              href="https://web.archive.org/web/20210515143950/http://kanzleipel.de/downloads/fachzeitschriften/steuerreform.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-dark-900/50 backdrop-blur border border-dark-800 rounded-xl p-6 hover:border-primary-500/50 hover:bg-dark-900/70 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-primary-500/10 rounded-lg flex items-center justify-center">
+                  <FileText className="w-5 h-5 text-primary-500" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h4 className="text-white font-semibold mb-1 group-hover:text-primary-500 transition-colors">
+                    Steuerreform
+                  </h4>
+                  <p className="text-sm text-dark-300">Fachzeitschrift</p>
+                </div>
+                <ExternalLink className="w-4 h-4 text-dark-400 group-hover:text-primary-500 transition-colors flex-shrink-0" />
+              </div>
+            </a>
+
+            <a
+              href="https://web.archive.org/web/20220122003358/http://kanzleipel.de/downloads/fachzeitschriften/INDat_7_09_Pel.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-dark-900/50 backdrop-blur border border-dark-800 rounded-xl p-6 hover:border-primary-500/50 hover:bg-dark-900/70 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-primary-500/10 rounded-lg flex items-center justify-center">
+                  <FileText className="w-5 h-5 text-primary-500" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h4 className="text-white font-semibold mb-1 group-hover:text-primary-500 transition-colors">
+                    INDat Report 7/09
+                  </h4>
+                  <p className="text-sm text-dark-300">Fachzeitschrift</p>
+                </div>
+                <ExternalLink className="w-4 h-4 text-dark-400 group-hover:text-primary-500 transition-colors flex-shrink-0" />
+              </div>
+            </a>
+
+            <a
+              href="https://web.archive.org/web/20220201084744/http://kanzleipel.de/downloads/fachzeitschriften/schuldner_auf_der_flucht.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-dark-900/50 backdrop-blur border border-dark-800 rounded-xl p-6 hover:border-primary-500/50 hover:bg-dark-900/70 transition-all"
+            >
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-10 h-10 bg-primary-500/10 rounded-lg flex items-center justify-center">
+                  <FileText className="w-5 h-5 text-primary-500" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h4 className="text-white font-semibold mb-1 group-hover:text-primary-500 transition-colors">
+                    Schuldner auf der Flucht
+                  </h4>
+                  <p className="text-sm text-dark-300">Fachzeitschrift</p>
+                </div>
+                <ExternalLink className="w-4 h-4 text-dark-400 group-hover:text-primary-500 transition-colors flex-shrink-0" />
+              </div>
+            </a>
           </div>
         </div>
       </div>
