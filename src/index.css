@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    text-shadow:
+      0 4px 8px rgba(0, 0, 0, 0.8),
+      0 6px 20px rgba(0, 0, 0, 0.6),
+      0 8px 30px rgba(0, 0, 0, 0.4);
+  }
+
+  h2 {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}

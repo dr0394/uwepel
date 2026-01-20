@@ -1,0 +1,16 @@
+{
+  "name": "KanzleiPel",
+  "short_name": "KanzleiPel",
+  "description": "Kompetente bundesweite Verteidigung gegen Ansprüche der Finanzverwaltung",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0E27",
+  "theme_color": "#C59D5F",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
