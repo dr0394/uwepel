@@ -23,29 +23,56 @@ export default function Impressum({ onBack }: ImpressumProps) {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white border border-primary-200 rounded-lg p-8 lg:p-12">
           <section className="mb-8">
-            <h2 className="text-2xl font-bold text-dark-950 mb-4">Angaben gemäß § 5 TMG</h2>
+            <h2 className="text-2xl font-bold text-dark-950 mb-4">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</h2>
             <div className="text-dark-800 space-y-2">
-              <p className="font-semibold">KanzleiPel</p>
-              <p>Rechtsanwalt Uwe Pel</p>
-              <p>Friesenstraße 100</p>
+              <p className="font-semibold">Rechtsanwalt Uwe Pel</p>
+              <p>Friesensstraße 100</p>
               <p>46149 Oberhausen</p>
+              <p>Deutschland</p>
+              <p className="mt-4 font-semibold">Weiterer Kanzleisitz:</p>
+              <p>Hangen-Weißheimer Straße 2–4</p>
+              <p>55234 Eppelsheim</p>
+              <p>Deutschland</p>
             </div>
           </section>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-dark-950 mb-4">Kontakt</h2>
             <div className="text-dark-800 space-y-2">
-              <p>Telefon: +49 177 6501811</p>
               <p>E-Mail: Uwe.pel@kanzleipel.de</p>
+              <p>Telefon: 01776501811</p>
             </div>
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold text-dark-950 mb-4">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
+            <h2 className="text-2xl font-bold text-dark-950 mb-4">Berufsbezeichnungen</h2>
             <div className="text-dark-800 space-y-2">
-              <p>Berufsbezeichnung: Rechtsanwalt (verliehen in der Bundesrepublik Deutschland)</p>
-              <p>Zuständige Kammer: Rechtsanwaltskammer [Name]</p>
-              <p>Anschrift: [Adresse der Kammer]</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Rechtsanwalt (Bundesrepublik Deutschland)</li>
+                <li>Adwokat (Rzeczpospolita Polska)</li>
+              </ul>
+            </div>
+          </section>
+
+          <section className="mb-8">
+            <h2 className="text-2xl font-bold text-dark-950 mb-4">Zuständige Kammern</h2>
+            <div className="text-dark-800 space-y-4">
+              <div>
+                <p className="font-semibold">Rechtsanwaltskammer Düsseldorf</p>
+                <p>Freiligrathstraße 25</p>
+                <p>40479 Düsseldorf</p>
+              </div>
+              <div>
+                <p className="font-semibold">Rechtsanwaltskammer Koblenz</p>
+                <p>Rheinstraße 24</p>
+                <p>56068 Koblenz</p>
+              </div>
+              <div>
+                <p className="font-semibold">Okręgowa Rada Adwokacka w Gdańsku</p>
+                <p>ul. Nowe Ogrody 30/34</p>
+                <p>80-803 Gdańsk</p>
+                <p>Polen</p>
+              </div>
             </div>
           </section>
 
@@ -73,12 +100,10 @@ export default function Impressum({ onBack }: ImpressumProps) {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold text-dark-950 mb-4">Angaben zur Berufshaftpflichtversicherung</h2>
+            <h2 className="text-2xl font-bold text-dark-950 mb-4">Berufshaftpflichtversicherung</h2>
             <div className="text-dark-800 space-y-2">
-              <p>Name und Sitz des Versicherers:</p>
-              <p>[Name der Versicherung]</p>
-              <p>[Adresse der Versicherung]</p>
-              <p className="mt-4">Geltungsraum der Versicherung: Deutschland / EU</p>
+              <p className="font-semibold">HDI Versicherung AG</p>
+              <p className="mt-2">Geltungsbereich: Deutschland und Mitgliedstaaten der Europäischen Union</p>
             </div>
           </section>
 
@@ -86,7 +111,7 @@ export default function Impressum({ onBack }: ImpressumProps) {
             <h2 className="text-2xl font-bold text-dark-950 mb-4">Redaktionell verantwortlich</h2>
             <div className="text-dark-800">
               <p>Rechtsanwalt Uwe Pel</p>
-              <p>Friesenstraße 100, 46149 Oberhausen</p>
+              <p>Friesensstraße 100, 46149 Oberhausen</p>
             </div>
           </section>
 
@@ -117,12 +142,6 @@ export default function Impressum({ onBack }: ImpressumProps) {
               </p>
             </div>
           </section>
-
-          <div className="mt-12 pt-8 border-t border-primary-200">
-            <p className="text-sm text-dark-400 italic">
-              Hinweis: Dies ist ein Platzhalter-Impressum. Bitte ergänzen Sie alle Felder mit den korrekten Daten.
-            </p>
-          </div>
         </div>
       </div>
     </div>
