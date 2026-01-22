@@ -26,7 +26,7 @@ export default function Impressum({ onBack }: ImpressumProps) {
             <h2 className="text-2xl font-bold text-dark-950 mb-4">Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG)</h2>
             <div className="text-dark-800 space-y-2">
               <p className="font-semibold">Rechtsanwalt Uwe Pel</p>
-              <p>Friesensstraße 100</p>
+              <p>Friesenstraße 100</p>
               <p>46149 Oberhausen</p>
               <p>Deutschland</p>
               <p className="mt-4 font-semibold">Weiterer Kanzleisitz:</p>
