@@ -6,7 +6,7 @@ export default function About() {
     'Ehemals delegiertes Mitglied im Ausschuss "Internationale Steuerfragen" beim Bundesverband der deutschen Industrie',
     'Tätigkeit bei der deutsch-amerikanischen Handelskammer in Washington D.C.',
     'Tätigkeit für die deutsche Finanzverwaltung auf Mandatsbasis',
-    'Rechtsanwalt bei führender US-Steuerkanzlein Deutschland',
+    'Rechtsanwalt bei führender US-Steuerkanzlein in Deutschland',
     'Leitende Position bei international tätigem schweizerische Pharma- und Diagnostikunternehmen',
     'Langjähriger Mitautor des ertragssteuerlichen Standardkommentars Hermann/Heuer/Raupach',
     'Einschlägige weitere Veröffentlichungen',
