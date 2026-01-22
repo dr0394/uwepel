@@ -19,7 +19,7 @@ export default function Services() {
     },
     {
       icon: Globe,
-      title: 'Internationale Koordination',
+      title: 'International',
       description: 'Bearbeitung je nach Konstellation direkt von Deutschland aus oder unter Einbeziehung unseres Netzwerks in der EU und den USA – im Netzwerk auch für komplexe Fälle.'
     }
   ];
