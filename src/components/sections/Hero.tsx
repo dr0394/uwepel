@@ -126,8 +126,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                   </p>
                   <div className="border-t-2 border-primary-200 pt-6">
                     <p className="text-dark-950 font-bold text-xl mb-1">Stephen Baister</p>
-                    <p className="text-dark-700 text-sm mb-2">Präsident des Insolvenzgerichts, High Court of Justice London, Grundsatzurteil Steinhardt vs Eichler vom 30. Juni 2011</p>
-                    
+                    <p className="text-dark-700 text-sm mb-2">Präsident des Insolvenzgerichts, High Court of Justice London, Grundsatzurteil Steinhardt vs Eichler vom 30. Juni 2011</p>        
                     <p className="text-dark-800 text-base leading-relaxed">
                       Das in England und Deutschland vielbeachtete Urteil stellt einen Meilenstein in der Verfolgung deutscher Insolvenzflüchtlinge in England dar. RA Pel hat in diesem Verfahren die Aufhebung des Insolvenzverfahren in England mit der Folge vollumfänglicher Unterwerfung des Schuldners unter deutsche Zwangsvollstreckungsmaßnahmen durchgesetzt.
                     </p>
