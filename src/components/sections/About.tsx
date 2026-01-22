@@ -11,7 +11,6 @@ export default function About() {
     'Langjähriger Mitautor des ertragssteuerlichen Standardkommentars Hermann/Heuer/Raupach',
     'Einschlägige weitere Veröffentlichungen',
     'Zulassung als EU-Anwalt in Polen (Danzig/Gdańsk)',
-    'Jahrzehntelange Praxis im Steuerstrafrecht und Insolvenzrecht'
   ];
 
   return (
