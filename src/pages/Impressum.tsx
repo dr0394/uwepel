@@ -111,7 +111,7 @@ export default function Impressum({ onBack }: ImpressumProps) {
             <h2 className="text-2xl font-bold text-dark-950 mb-4">Redaktionell verantwortlich</h2>
             <div className="text-dark-800">
               <p>Rechtsanwalt Uwe Pel</p>
-              <p>Friesensstraße 100, 46149 Oberhausen</p>
+              <p>Friesenstraße 100, 46149 Oberhausen</p>
             </div>
           </section>
 
