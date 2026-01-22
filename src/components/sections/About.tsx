@@ -7,7 +7,7 @@ export default function About() {
     'Tätigkeit bei der deutsch-amerikanischen Handelskammer in Washington D.C.',
     'Tätigkeit für die deutsche Finanzverwaltung auf Mandatsbasis',
     'Rechtsanwalt bei führender US-Steuerkanzlein in Deutschland',
-    'Leitende Position bei international tätigem schweizerische Pharma- und Diagnostikunternehmen',
+    'Leitende Position bei international tätigem schweizerischen Pharma- und Diagnostikunternehmen',
     'Langjähriger Mitautor des ertragssteuerlichen Standardkommentars Hermann/Heuer/Raupach',
     'Einschlägige weitere Veröffentlichungen',
     'Zulassung als EU-Anwalt in Polen (Danzig/Gdańsk)',
