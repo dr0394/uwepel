@@ -110,9 +110,11 @@ export default function Hero({ onContactClick }: HeroProps) {
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} size={14} className="fill-[#C59D5F] text-[#C59D5F] sm:w-4 sm:h-4" />
                   ))}
-               
-         
-          </div>
+                </div>
+                <span className="text-xs sm:text-sm text-gray-700 font-medium">Anwalt.de Bewertungen</span>
+              </div>
+            </div>
+          
 
           <div className="relative hidden lg:block">
             <div className="bg-white border-2 border-primary-200 rounded-lg p-8 shadow-2xl">
