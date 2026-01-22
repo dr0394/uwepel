@@ -69,7 +69,7 @@ export default function About() {
                   <path d="M2 12h20" className="text-primary-400" />
                   <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" className="text-primary-400" />
                 </svg>
-                <div className="text-3xl font-bold text-white mb-2">3</div>
+                <div className="text-3xl font-bold text-white mb-2">2</div>
                 <div className="text-dark-200 text-sm">Kontinente</div>
                 <div className="text-dark-300 text-xs mt-2">Europa & Amerika</div>
               </div>
