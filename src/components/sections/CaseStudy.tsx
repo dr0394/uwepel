@@ -65,7 +65,7 @@ export default function CaseStudy() {
 
           <div className="mt-8 text-center">
             <p className="text-dark-300 text-sm">
-              Quelle: Steinhardt & Anor vs. Eichler & Ors, High Court of Justice, Chancery Division, 30.06.2011
+              Quelle: Steinhardt vs. Eichler, High Court of Justice, Chancery Division, 30.06.2011
             </p>
           </div>
         </div>
