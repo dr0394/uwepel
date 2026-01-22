@@ -46,8 +46,8 @@ export default function Hero({ onContactClick }: HeroProps) {
 
             <div className="mb-8 p-6 bg-dark-900/50 backdrop-blur border border-primary-500/30 rounded-lg">
               <p className="text-dark-100 leading-relaxed text-base">
-                Die bundesweit tätige Kanzlei spezialisiert auf die Abwehr von Ansprüchen der Finanzverwaltung aller Art im In- und Ausland.
-                Einen besonderen Schwerpunkt bildet das Steuerstrafrecht mit dem Annexinsolvenzrecht.
+                Die bundesweit tätige Kanzlei ist spezialisiert auf die Abwehr von Ansprüchen der Finanzverwaltung aller Art im In- und Ausland.
+                Einen besonderen Schwerpunkt bildet das Steuerstrafrecht mit dem Annex Insolvenzrecht.
                 In internationalen Angelegenheiten stützt sich die Kanzlei auf ein Netzwerk ausgesuchter und seit Jahren persönlich bekannter Kollegen.
               </p>
             </div>
