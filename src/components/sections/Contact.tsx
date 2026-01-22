@@ -9,6 +9,12 @@ export default function Contact({ onContactFormClick }: ContactProps) {
     {
       icon: Phone,
       title: 'Telefon',
+      content: '+49 208 / 884 2871',
+      link: 'tel:+492088842871'
+    },
+    {
+      icon: Phone,
+      title: 'Mobil',
       content: '+49 177 6501811',
       link: 'tel:+491776501811'
     },
