@@ -63,9 +63,8 @@ export default function Hero({ onContactClick }: HeroProps) {
                     <div className="border-t border-primary-200 pt-4">
                       <p className="text-dark-950 font-bold text-sm">Stephen Baister</p>
                       <p className="text-dark-700 text-xs">Präsident des Insolvenzgerichts, High Court of Justice London, Grundsatzurteil Steinhardt vs Eichler vom 30. Juni 2011</p> 
-                      <p className="text-dark-500 text-xs mt-1">Steinhardt & Anor vs. Eichler & Ors, 30 June 2011</p>
                       <p className="text-dark-800 text-sm leading-relaxed mt-3">
-                        In England wird beim Insolvenzgericht unter einem Mediensturm in der Verfahrenssprache Englisch um Glaubhaftmachung gerungen – und das ohne die Möglichkeit eine dauerhafte Vertretung durch einen English Barrister aufzubauen.
+                        Das in England und Deutschland vielbeachtete Urteil stellt einen Meilenstein in der Verfolgung deutscher Insolvenzflüchtlinge in England dar. RA Pel hat in diesem Verfahren die Aufhebung des Insolvenzverfahren in England mit der Folge vollumfänglicher Unterwerfung des Schuldners unter deutsche Zwangsvollstreckungsmaßnahmen durchgesetzt.
                       </p>
                     </div>
                   </div>
@@ -111,9 +110,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} size={14} className="fill-[#C59D5F] text-[#C59D5F] sm:w-4 sm:h-4" />
                   ))}
-                </div>
-                <span className="text-xs sm:text-sm text-gray-700 font-medium">Anwalt.de Bewertungen</span>
-              </div>
+               
             </div>
           </div>
 
