@@ -111,7 +111,7 @@ export default function Hero({ onContactClick }: HeroProps) {
                     <Star key={i} size={14} className="fill-[#C59D5F] text-[#C59D5F] sm:w-4 sm:h-4" />
                   ))}
                
-            </div>
+         
           </div>
 
           <div className="relative hidden lg:block">
