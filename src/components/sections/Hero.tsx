@@ -33,7 +33,7 @@ export default function Hero({ onContactClick }: HeroProps) {
               Kompetente Verteidigung gegen Ansprüche der Finanzverwaltung
             </h1>
             <p className="text-xl text-dark-200 mb-6 leading-relaxed">
-              Bundesweite Vertretung in Steuerstrafverfahren, Insolvenzrecht und bei
+              Bundesweite Vertretung - Auch bei
               internationalen Sachverhalten – mit Erfahrung, Netzwerk und strategischem Weitblick.
             </p>
 
