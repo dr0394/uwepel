@@ -44,6 +44,28 @@ export default function Hero({ onContactClick }: HeroProps) {
               <p className="text-dark-950 font-bold text-base">Haftung / Vollstreckung</p>
             </div>
 
+            <div className="mb-8 p-6 bg-primary-500/10 backdrop-blur border-2 border-primary-500/40 rounded-lg">
+              <h3 className="text-white font-bold text-lg mb-4 text-center">Klare Positionierung</h3>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-primary-500 rounded-full mt-2"></div>
+                  <p className="text-dark-100 text-base">Es werden ausschließlich Mandate mit streitigem Charakter übernommen</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-primary-500 rounded-full mt-2"></div>
+                  <p className="text-dark-100 text-base">Keine Steuerberatung</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-primary-500 rounded-full mt-2"></div>
+                  <p className="text-dark-100 text-base">Keine Gestaltungsmodelle</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="flex-shrink-0 w-2 h-2 bg-primary-500 rounded-full mt-2"></div>
+                  <p className="text-dark-100 text-base">Keine Interessenkonflikte mit der Finanzverwaltung</p>
+                </div>
+              </div>
+            </div>
+
             <div className="mb-8 p-6 bg-dark-900/50 backdrop-blur border border-primary-500/30 rounded-lg">
               <p className="text-dark-100 leading-relaxed text-base">
                 Die bundesweit tätige Kanzlei ist spezialisiert auf die Abwehr von Ansprüchen der Finanzverwaltung aller Art im In- und Ausland.
