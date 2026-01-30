@@ -30,7 +30,7 @@ export default function Hero({ onContactClick }: HeroProps) {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Kompetente Verteidigung gegen Ansprüche der Finanzverwaltung
+              Kompetente Verteidigung gegen Ansprüche der Finanzverwaltung - Defense against Tax Authorities 
             </h1>
             <p className="text-xl text-dark-200 mb-6 leading-relaxed">
               Bundesweite Vertretung - Auch bei
