@@ -42,11 +42,12 @@ export default function About() {
 
           <div>
             <div className="grid grid-cols-2 gap-6">
-              <div className="bg-dark-950 rounded-lg p-8 text-center">
-                <GraduationCap className="text-primary-400 mx-auto mb-4" size={40} />
-                <div className="text-3xl font-bold text-white mb-2">2</div>
-                <div className="text-dark-200 text-sm">Studienorte</div>
-                <div className="text-dark-300 text-xs mt-2">Münster & Genf</div>
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="https://alkaio.com/media/918632744333030.jpeg"
+                  alt="Studienorte"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               <div className="bg-primary-500 rounded-lg p-8 text-center">

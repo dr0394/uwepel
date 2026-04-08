@@ -139,23 +139,11 @@ export default function Hero({ onContactClick }: HeroProps) {
           </div>
 
           <div className="relative hidden lg:block">
-            <div className="bg-white border-2 border-primary-200 rounded-lg p-8 shadow-2xl">
-              <div className="flex items-start gap-4">
-                <div className="text-primary-500 text-8xl leading-none">"</div>
-                <div className="flex-1 pt-4">
-                  <p className="text-dark-900 font-medium italic text-lg leading-relaxed mb-6">
-                    "Mr. Pel's conduct of the proceedings meant that no difficulty arose in testing the evidence relied on by the Applicant. I found Mr. Pel to be honest and truthful. He did his best to assist the court, thereby demonstrating a level of objectivity consistent with the professionalism to be expected of a lawyer practising in a respected jurisdiction. I do not agree with everything that Mr. Pel has put forward, but the areas where I disagree do not undermine the broad thrust of the case he puts forward on his client's behalf."
-                  </p>
-                  <div className="border-t-2 border-primary-200 pt-6">
-                    <p className="text-dark-950 font-bold text-xl mb-1">Stephen Baister</p>
-                    <p className="text-dark-700 text-sm mb-2">Präsident des Insolvenzgerichts, High Court of Justice London, Grundsatzurteil Steinhardt vs Eichler vom 30. Juni 2011</p>        
-                    <p className="text-dark-800 text-base leading-relaxed">
-                      Das in England und Deutschland vielbeachtete Urteil stellt einen Meilenstein in der Verfolgung deutscher Insolvenzflüchtlinge in England dar. RA Pel hat in diesem Verfahren die Aufhebung des Insolvenzverfahren in England mit der Folge vollumfänglicher Unterwerfung des Schuldners unter deutsche Zwangsvollstreckungsmaßnahmen durchgesetzt.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <img
+              src="https://alkaio.com/media/1487556516345751.jpeg"
+              alt="Rechtsanwalt Pel"
+              className="w-full h-auto rounded-lg shadow-2xl"
+            />
           </div>
         </div>
       </div>
