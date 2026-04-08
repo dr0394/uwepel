@@ -27,11 +27,20 @@ export default function Hero({ onContactClick }: HeroProps) {
   return (
     <section id="hero" className="pt-32 pb-20 bg-gradient-to-b from-dark-950 via-dark-900 to-dark-950">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
           <div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Kompetente Verteidigung gegen Ansprüche der Finanzverwaltung - Defense against Tax Authorities 
-            </h1>
+            <div className="flex flex-col lg:flex-row gap-6 mb-6 items-start">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight flex-1">
+                Kompetente Verteidigung gegen Ansprüche der Finanzverwaltung - Defense against Tax Authorities
+              </h1>
+              <div className="lg:hidden w-full">
+                <img
+                  src="https://alkaio.com/media/1487556516345751.jpeg"
+                  alt="Rechtsanwalt Pel"
+                  className="w-full h-auto rounded-lg shadow-2xl"
+                />
+              </div>
+            </div>
             <p className="text-xl text-dark-200 mb-6 leading-relaxed">
               Bundesweite Vertretung - Auch bei
               internationalen Sachverhalten – mit Erfahrung, Netzwerk und strategischem Weitblick.
