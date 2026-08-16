@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, MessageCircle } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
 
 interface ContactProps {
   onContactFormClick: () => void;
@@ -84,29 +84,12 @@ export default function Contact({ onContactFormClick }: ContactProps) {
             </div>
 
             <div className="bg-dark-950 rounded-lg p-8">
-              <div className="flex items-start gap-4 mb-6">
-                <Clock size={24} className="text-primary-400 flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="text-lg font-bold text-white mb-3">
-                    Erreichbarkeit
-                  </h3>
-                  <div className="space-y-2 text-dark-200">
-                    <div>Montag – Freitag: 10:00 – 18:00 Uhr</div>
-                    <div className="text-sm text-dark-300">
-                      In dringenden Fällen auch außerhalb dieser Zeiten erreichbar
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-6 pt-6 border-t border-dark-800">
-                <button
-                  onClick={onContactFormClick}
-                  className="w-full bg-primary-500 hover:bg-primary-600 text-white rounded-full px-6 py-4 font-semibold transition-all text-lg"
-                >
-                  Anfrage-Formular ausfüllen
-                </button>
-              </div>
+              <button
+                onClick={onContactFormClick}
+                className="w-full bg-primary-500 hover:bg-primary-600 text-white rounded-full px-6 py-4 font-semibold transition-all text-lg"
+              >
+                Anfrage-Formular ausfüllen
+              </button>
             </div>
           </div>
 
